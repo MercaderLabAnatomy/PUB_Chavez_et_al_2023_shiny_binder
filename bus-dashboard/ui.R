@@ -783,7 +783,7 @@ tabPanel(
     column(12,DT::dataTableOutput("markers_table"))
     
   ),    # End of fluidRow (4 space)
-)     # End of tab (2 space) 
+),     # End of tab (2 space) 
 
 br(), 
 p("", style = "font-size: 125%;"), 
