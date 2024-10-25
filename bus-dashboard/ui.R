@@ -22,7 +22,7 @@ list(tags$style(HTML(".navbar-default .navbar-nav { font-weight: bold; font-size
  
    
 ### Page title 
-titlePanel("Myra snRNAseq for spns1 KO embryos"),  
+titlePanel("snRNAseq for spns1 KO embryonic zebrafish hearts- Chavez et al, 2024"),  
 navbarPage( 
   NULL,  
  ### Tab1.a1: cellInfo vs geneExpr on dimRed 
@@ -785,7 +785,16 @@ tabPanel(
   ),    # End of fluidRow (4 space)
 )     # End of tab (2 space) 
 
+br(), 
+p("", style = "font-size: 125%;"), 
+tags$p(strong("Citations:")),
+p(a("Chavez et al, 2024., biorXiv", 
+  href = "https://doi.org/10.1101/2024.03.26.586825",target="_blank")),
+# tags$br(),
+p(em("This webpage was made using "), a("ShinyCell", 
+  href = "https://github.com/SGDDNB/ShinyCell",target="_blank")),
 
+br(),br(),br(),br(),br() 
 
 
 ))
