@@ -9,3 +9,5 @@ install.packages("ggrepel")
 install.packages("hdf5r")
 install.packages("ggdendro")
 install.packages("gridExtra")
+install.packages("shinydashboardPlus")
+
